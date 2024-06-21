@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Test-method Suite" parallel="methods" thread-count="12" >
+ <test name="Analytics_Test_Cases" group-by-instances="true">
+   <classes>
+   	 <class name="demo.cafe.regression.Analytics_Test_Cases"/>
+   </classes>
+ </test>
+</suite> <!-- Suite -->

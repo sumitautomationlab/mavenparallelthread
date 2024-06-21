@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Test-method Suite" parallel="methods" thread-count="12" >
+ <test name="Cafe_Account_UAT" group-by-instances="true">
+   <classes>
+   	 <class name="demo.cafe.regression.Cafe_Account_search_UAT"/>
+   </classes>
+ </test>
+ <test name="Cafe_Account_ORION" group-by-instances="true">
+   <classes>
+   	 <class name="demo.cafe.regression.Cafe_Account_search_ORION"/>
+   </classes>
+ </test>
+ <!--  <test name="Comparison_UAT_ORION" group-by-instances="true"> 
+   <classes>
+   	 <class name="demo.cafe.regression.Comparison_UAT_ORION"/>
+   </classes>
+ </test> -->
+</suite> <!-- Suite -->
